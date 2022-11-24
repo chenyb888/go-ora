@@ -3,7 +3,7 @@ package advanced_nego
 import (
 	"errors"
 	"fmt"
-	"github.com/sijms/go-ora/network/security"
+	"github.com/chenyb888/go-ora/network/security"
 )
 
 type encryptService struct {

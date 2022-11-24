@@ -6,9 +6,9 @@ import (
 	"database/sql/driver"
 	"errors"
 	"fmt"
-	"github.com/sijms/go-ora/advanced_nego"
-	"github.com/sijms/go-ora/converters"
-	"github.com/sijms/go-ora/network"
+	"github.com/chenyb888/go-ora/advanced_nego"
+	"github.com/chenyb888/go-ora/converters"
+	"github.com/chenyb888/go-ora/network"
 	"strconv"
 )
 
@@ -63,6 +63,8 @@ type Connection struct {
 	strConv           converters.IStringConverter
 	NLSData           NLSData
 }
+//go:linkname Constr Connection.conStr
+//go:linkname ConnOption Connection.connOption
 type OracleDriver struct {
 }
 type OracleConnector struct {

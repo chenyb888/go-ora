@@ -1,7 +1,7 @@
 package go_ora
 
 import (
-	"github.com/sijms/go-ora/network"
+	"github.com/chenyb888/go-ora/network"
 )
 
 type RefCursor struct {

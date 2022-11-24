@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"database/sql/driver"
 	"errors"
-	"github.com/sijms/go-ora/v2/converters"
+	"github.com/chenyb888/go-ora/v2/converters"
 	"reflect"
 	"time"
 )
